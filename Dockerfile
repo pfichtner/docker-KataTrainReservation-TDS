@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 MAINTAINER pfichtner "https://github.com/pfichtner"
 
-RUN RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
   git \
   python3-cherrypy3
 
