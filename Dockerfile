@@ -11,5 +11,5 @@ WORKDIR /opt/KataTrainReservation/train_data_service
 
 RUN pip install cherrypy
 
-CMD ["python", "start_service.py"]
+CMD ["python3", "start_service.py"]
 
