@@ -2,6 +2,8 @@ FROM ubuntu:latest
 
 MAINTAINER pfichtner "https://github.com/pfichtner"
 
+EXPOSE 8081
+
 RUN apt-get update && apt-get install -y \
   git \
   python3-cherrypy3
